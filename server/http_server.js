@@ -66,7 +66,7 @@ rest.run = function(){
 		//
 
 		restserver.listen(config["rest_port"], function() {
-			console.log('%s listening at %s', restserver.name, restserver.url);
+			console.log('http server listening at %s', restserver.url);
 		});
 	}
 };

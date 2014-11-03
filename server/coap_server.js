@@ -54,7 +54,7 @@ iotcoap.run = function(){
          route_helper.get	("/v1.0/id/:id/ch/:ch/dp",		coap_helper.get_datapoints);
 
          coapserver.listen(function() {
-			console.log('coap listening at coap://0.0.0.0:5683');
+			console.log('coap server listening at coap://0.0.0.0:5683');
          });
 	}
 };
